@@ -15,7 +15,7 @@ useEffect(() => {
           <MDBBtn color="info sm:w-[150px] sm:text-[15px] w-[75px]text-[8px] ">
           <a href="mailto:meetp3775@gmail.com" className="text-white font-[700]">Hire me</a></MDBBtn>
           <MDBBtn color="info sm:w-[150px] sm:text-[15px] w-[75px]text-[8px]">
-          <a href="/meet/contact" className="text-white font-[700]">{`Let's Talk`}</a>
+          <a href= "https://meets5800.github.io/meet/contact" className="text-white font-[700]">{`Let's Talk`}</a>
           </MDBBtn>
     </div>
   )
