@@ -12,7 +12,7 @@ export const App = () => {
     document.title = "myPortfolio";
   },[])
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={"/meet/"}>
       <div className="body">
         <Routes>
           <Route path="/" element={<Home />} />
