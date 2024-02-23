@@ -1,0 +1,90 @@
+.contactmain{
+    background-color: rgb(3, 21, 32);
+    height: auto;
+    min-height: 110vh;
+}
+.contact-main {
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 100%;
+    color: white;
+    animation: abc;
+    animation-duration: 1.2s; 
+}
+@keyframes abc {
+    0% {
+        margin-top: -80%;
+    }
+
+    100% {
+        margin-top: 0%;
+    }
+}
+
+.text {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    transition-delay: 0.2s;
+}
+.visible {
+    opacity: 1;
+}
+
+
+
+.submit-a {
+    height: 40px;
+    transform: translate(-50%, -50%);
+    color: skyblue;
+    text-decoration: none;
+    font-size: 90%;
+    display: inline-block;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    padding: 0.5em 2em;
+    border: 2px solid skyblue;
+    transition: .02s .2s cubic-bezier(.1, 0, .1, 1);
+}
+
+.submit-a::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 100%;
+    bottom: 0;
+    background: skyblue;
+    transition: .3s .2s cubic-bezier(.1, 0, .1, 1), left .3s cubic-bezier(.1, 0, .1, 1);
+    z-index: -1;
+}
+
+.submit-a::after {
+    content: "";
+    display: inline-block;
+    background-image: url('https://cdn-icons-png.flaticon.com/128/109/109617.png');
+    position: absolute;
+    top: 0;
+    left: calc(100% - 3em);
+    right: 3em;
+    bottom: 0;
+    background-size: 1.5em;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: right .3s cubic-bezier(.1, 0, .1, 1);
+}
+
+.submit-a:hover {
+    padding: 0.5em 3.5em 0.5em 0.5em;
+}
+
+.submit-a:hover::before {
+    left: calc(100% - 3em);
+    right: 0;
+    transition: .3s cubic-bezier(.1, 0, .1, 1), left .3s .2s cubic-bezier(.1, 0, .1, 1);
+}
+
+.submit-a:hover::after {
+    right: 0;
+    transition: right .3s .2s cubic-bezier(.1, 0, .1, 1);
+}

@@ -1,0 +1,56 @@
+.educationmain{
+  background-color: rgb(3, 21, 32);
+  height: auto;
+  min-height: 110vh;
+}
+.education-main {
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 100%;
+    color: white;
+    animation: abc;
+    animation-duration: 1.2s; 
+}
+
+@keyframes abc {
+    0% {
+        margin-top: -100%;
+    }
+
+    100% {
+        margin-top: 0%;
+    }
+}
+.text {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    transition-delay: 0.2s;
+}
+.visible {
+    opacity: 1;
+}
+.cards{
+    margin-bottom: 5px;
+    padding: 8px;
+    color: white;
+    border: 1px solid;
+  border-radius: 10px;
+  animation: borderAnimation 3s infinite alternate;
+}
+@keyframes borderAnimation {
+    0% {
+      border-color: #ff6347;
+    }
+    25% {
+      border-color: #ffd700;
+    }
+    50% {
+      border-color: #32cd32;
+    }
+    75% {
+      border-color: #1e90ff;
+    }
+    100% {
+      border-color: #ff6347;
+    }
+  }

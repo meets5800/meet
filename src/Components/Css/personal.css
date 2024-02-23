@@ -1,0 +1,7 @@
+.blue{
+    width: -80%;
+    transition: width 2s;
+}
+.blue:hover{
+    width: 100%;
+}
