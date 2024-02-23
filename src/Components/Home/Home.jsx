@@ -25,7 +25,7 @@ export const Home = () => {
             <p className="name sm:text-[50px] text-[30px] sm:w-[100%] w-[100%] sm:tracking-[6px] tracking-[2px] ">
               Hi, I am Meet Sutariya
             </p>
-            <p className="wd text-[24px] sm:text-[40px] w-[100%] sm:w-[10%] sm:tracking-[6px] tracking-[1px]">
+            <p className="wd text-[26px] sm:text-[40px] w-[15%] sm:w-[10%] sm:tracking-[6px] tracking-[3px] ">
               Web Developer
             </p>
             <p

@@ -8,7 +8,7 @@ export const Header = () => {
           <div style={{ color: "white" }}>Portfolio</div>
         </NavLink>
       </div>
-      <div className="sm:flex sm:justify-end sm:flex-row sm:w-[100%] w-[100%] flex justify-start flex-row sm:gap-[10px] gap-3 sm:pt-[0] pt-[4%] ">
+      <div className="sm:flex sm:justify-end sm:flex-row sm:w-[100%] w-[100%] flex justify-around flex-row sm:gap-[10px] gap-[5px] sm:pt-[0] pt-[4%] ">
         <div className="home">
           <NavLink to="/">
             <button className="header-buttons sm:text-[18px] text-[16px]">

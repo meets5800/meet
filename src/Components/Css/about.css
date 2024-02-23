@@ -46,6 +46,9 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    opacity: 0;
+}.visiblee{
+    opacity: 1;
 }
 .image{
     position: relative;

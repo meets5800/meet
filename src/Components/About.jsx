@@ -3,13 +3,19 @@ import { useState, useEffect } from "react";
 import { Header } from "./Header";
 export const About = () => {
   const [isVisible, setIsVisible] = useState(false);
-
+  const [isVisiblee, setIsVisiblee] = useState(false);
   useEffect(()=>{
     document.title = "myPortfolio | About";
   },[])
   useEffect(() => {
     const timeout = setTimeout(() => {
       setIsVisible(true);
+    }, 1000);
+    return () => clearTimeout(timeout);
+  }, []);
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      setIsVisiblee(true);
     }, 1000);
     return () => clearTimeout(timeout);
   }, []);
@@ -30,7 +36,9 @@ export const About = () => {
           </div>
         </div>
 
-        <div className="image-container p-[3%] ">
+        <div className={`image-container ${
+              isVisiblee ? "visiblee" : ""
+            } p-[3%] `}>
           <div className="image ">
       
           </div>

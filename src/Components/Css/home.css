@@ -13,7 +13,6 @@
     padding-top: 2%;
 
 }
-
 @keyframes abc {
     0% {
         margin-top: -80%;
@@ -38,7 +37,6 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: shine 3s linear;
-
 }
 
 @keyframes shine {
@@ -46,13 +44,21 @@
         background-position: 0;
     }
 
-    99% {
-        background-position: 600px;
-    }
-
     100% {
         background-position: 600px;
     }
+}
+
+@media (max-width:640px) {
+    @keyframes shine {
+        0% {
+            background-position: 0;
+        }
+        100% {
+            background-position: 300px;
+        }
+    }
+    
 }
 
 
@@ -70,7 +76,7 @@
 }
 
 .wd {
-    position: relative;
+    position: relative; 
     color: skyblue;
     font-weight: bold !important;
     overflow: hidden;
@@ -79,7 +85,6 @@
     animation: typewriter 2s steps(44) 2s 1 normal both,
         blinkTextCursor 500ms infinite;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    width: 10%;
     
 }
 
@@ -89,7 +94,19 @@
     }
 
     to {
-        width: 52%;
+        width: 50%;
+    }
+}
+
+@media (max-width:640px) {
+    @keyframes typewriter {
+        from {
+            width: 0;
+        }
+    
+        to {
+            width: 75%;
+        }
     }
 }
 

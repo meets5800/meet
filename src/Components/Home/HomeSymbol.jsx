@@ -15,7 +15,7 @@ export const HomeSymbol = () => {
         isVisible ? "visible" : ""
       } sm:flex sm:justify-start flex justify-center h-[50px] w-[100%] `}
     >
-      <p className="line1 sm:text-[large] text-[15px] sm:flex flex sm:w-[20%] w-[35%] h-[100%] mt-0 items-center font-[500]">
+      <p className="line1 sm:text-[large] text-[13px] sm:flex flex sm:w-[20%] w-[35%] h-[100%] mt-0 items-center font-[500]">
         Connect with me:
       </p>
       <div className="sm:flex flex sm:justify-around sm:w-[30%] w-[50%] justify-around items-center sm:gap-[10px] gap-[4px]">

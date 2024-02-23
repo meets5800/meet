@@ -1,6 +1,6 @@
 export const Personal = () => {
   return (
-    <div className="skills1 pt-10 pb-10 mt-7">
+    <div className="skills1 pt-10 pb-10 mb-5 mt-7">
               <div className="flex justify-between w-[90%] text-[15px] ml-[5%] mr-[5%]">
                 <p>Communication</p>
                 <p>80%</p>
@@ -37,7 +37,7 @@ export const Personal = () => {
                 <p>Leadership</p>
                 <p>90%</p>
               </div>
-              <div className="p-[5px] mt-[-5px] flex items-center w-[90%] ml-[5%] mr-[5%] border-[1px] border-white h-[20px] rounded-[6px]">
+              <div className="p-[5px]  mt-[-5px] flex items-center w-[90%] ml-[5%] mr-[5%] border-[1px] border-white h-[20px] rounded-[6px]">
                 <div className=" w-[90%] border-[3px] border-[skyblue] blue"></div>
               </div>
             </div>

@@ -16,7 +16,7 @@ export const Education = () => {
     <div className="educationmain">
       <Header />
       <div
-        className={`education-main  sm:pt-[2%] pt-[6%]`}
+        className={`education-main sm:pt-[2%] pt-[6%]`}
       >
         <div className="sm:text-[50px] text-[35px] sm:w-[100%] w-[100%] flex justify-center text-center font-[700] font-sans">
           <div
@@ -32,7 +32,7 @@ export const Education = () => {
           <div className="education sm:w-[50%] w-[100%]">
             <div className="flex justify-center sm:text-[30px] text-[25px] font-[800] ">Education</div>
             <br />
-            <div className="cards sm:h-[280px] h-[300px]">
+            <div className="cards sm:h-[280px] h-[312px]">
               <div>March, 2018</div>
               <div className="sm:flex flex sm:flex-row flex-col justify-start text-center sm:h-[40px] h-[80px] items-baseline">
                 <div className="h-full sm:text-[30px] text-[25px] font-[800]">Grade 10 </div>
@@ -47,7 +47,7 @@ export const Education = () => {
                 excel in both individual coursework and collaborative projects.
               </div>
             </div>
-            <div className="cards sm:h-[280px] h-[300px]">
+            <div className="cards sm:h-[280px] h-[312px]">
               <div>March,2020</div>
               <div className="sm:flex flex sm:flex-row flex-col justify-start text-center sm:h-[40px] h-[80px] items-baseline">
                 <div className="h-full sm:text-[30px] text-[25px] font-[800]">Grade 12 </div>
@@ -64,7 +64,7 @@ export const Education = () => {
                 PCM fields.
               </div>
             </div>
-            <div className="cards sm:h-[280px] h-[300px]">
+            <div className="cards sm:h-[280px] h-[312px]">
               <div>August 2020 - Present</div>
               <div className="sm:text-[30px] text-[25px] font-[800]">B.E. - Computer Eng.</div>
               <div>(from A.D.Patel Institute of Technology, Anand)</div>
@@ -78,7 +78,7 @@ export const Education = () => {
           <div className="exp sm:w-[50%] w-[100%]">
             <div className="flex justify-center sm:text-[30px] text-[25px] font-[800]">Experience</div>
             <br />  
-            <div className="cards sm:h-[280px] h-[300px]">
+            <div className="cards sm:h-[280px] h-[312px]">
               <div>May 2022 - June 2022</div>
               <div className="sm:text-[30px] text-[25px] font-[800]">Front-End Developement Intern </div>
               <div>
@@ -89,7 +89,7 @@ export const Education = () => {
               Gain hands-on experience in web development through this internship. Work on real projects, learn essential coding skills, and contribute to creating dynamic front end for websites.
               </div>
             </div>
-            <div className="cards sm:h-[280px] h-[300px]">
+            <div className="cards sm:h-[280px] h-[312px]">
               <div>May 2023 - June 2023</div>
               <div className="sm:text-[30px] text-[25px] font-[800]">ReactJS Developement Intern </div>
               <div>
@@ -100,7 +100,7 @@ export const Education = () => {
               Interned remotely at Tatvasoft, specializing in ReactJS development. Contributed to web application projects, collaborating with a global team. Gained hands-on experience in front-end development, enhancing skills in ReactJS and remote collaboration.
               </div>
             </div>
-            <div className="cards sm:h-[280px] h-[300px]">
+            <div className="cards sm:h-[280px] h-[312px] mb-5">
               <div>December 2023 - Present</div>
               <div className="sm:text-[30px] text-[25px] font-[800]">Web Development Intern</div>
               <div>(at BVM Infotech,Surat)</div>
