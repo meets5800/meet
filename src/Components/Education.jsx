@@ -28,7 +28,7 @@ export const Education = () => {
             <span className="text-[skyblue]">&nbsp;Journey</span>
           </div>
         </div>
-        <div className="sm:w-[80%] w-[90%] pt-[25px] sm:ml-[10%] ml-[5%] mr-[5%] sm:mr-[10%] sm:flex flex sm:flex-row flex-col text-justify gap-7 sm:text-[16px] text-[14px] ">
+        <div className="sm:w-[80%] w-[90%] pt-[25px] sm:ml-[10%] ml-[5%] mr-[5%] sm:mr-[10%] sm:flex flex sm:flex-row flex-col-reverse text-justify gap-7 sm:text-[16px] text-[14px] ">
           <div className="education sm:w-[50%] w-[100%]">
             <div className="flex justify-center sm:text-[30px] text-[25px] font-[800] ">Education</div>
             <br />
@@ -100,7 +100,7 @@ export const Education = () => {
               Interned remotely at Tatvasoft, specializing in ReactJS development. Contributed to web application projects, collaborating with a global team. Gained hands-on experience in front-end development, enhancing skills in ReactJS and remote collaboration.
               </div>
             </div>
-            <div className="cards sm:h-[280px] h-[312px] mb-5">
+            <div className="cards sm:h-[280px] h-[312px] ">
               <div>December 2023 - Present</div>
               <div className="sm:text-[30px] text-[25px] font-[800]">Web Development Intern</div>
               <div>(at BVM Infotech,Surat)</div>

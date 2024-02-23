@@ -7,7 +7,7 @@ export const HomeSymbol = () => {
   useEffect(() => {
     setTimeout(() => {
       setIsVisible(true);
-    }, 2500);
+    }, 3000);
   }, []);
   return (
     <div
